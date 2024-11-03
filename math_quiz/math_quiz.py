@@ -1,9 +1,9 @@
 import random
 
 
-def function_A(min, max):
+def function_A(min: int, max: int):
     """
-    Random integer.
+    Return a random integer in between the given range of min-max.
     """
     return random.randint(min, max)
 

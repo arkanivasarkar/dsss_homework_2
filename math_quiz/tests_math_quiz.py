@@ -11,6 +11,7 @@ class TestMathGame(unittest.TestCase):
         for _ in range(1000):  # Test a large number of random values
             rand_num = generate_random_number(min_val, max_val)
             self.assertTrue(min_val <= rand_num <= max_val)
+            
 
     # Test if the operations are generated correctly
     def test_generate_random_operation(self):        
